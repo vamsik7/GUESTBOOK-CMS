@@ -1,0 +1,187 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+.container{
+	
+	width: 1000px;
+	margin: auto;
+}
+
+.head{
+	
+	width: 1000px;
+	height: 100px;
+	background: #fff;
+	
+}
+
+body{
+	
+	background: #666;
+}
+
+.navbar{
+	width:1000px;
+	height: 50px;
+	background: black;
+	color:white;
+	margin-top:3px;
+	margin-bottom: 15px;
+}
+
+#menu{
+	line-height: 50px;
+	float:left;	
+	
+}
+
+#menu li {
+	list-style-type: none;
+	display: inline; 
+	color: white;
+}
+
+#menu a{
+	text-decoration: none;
+	font-family: "comic sans MS";
+	color:white;
+	font-size:16px;
+	padding: 6px;
+	margin:5px;
+}
+
+#menu a:hover{
+	color:#FF9999;
+	text-decoration:underline;
+}
+
+#form{
+	
+	float: right;
+	line-height: 50px;
+	margin-right: 3px;
+}
+.post_area{
+		clear: left;
+	width:720px;
+	background:white;
+	float: left;
+	margin-right: 10px;
+	padding:10px;
+		
+}
+
+.post_area h2{
+	font-size: 20px;
+	padding-bottom:10px;
+	
+}
+
+#l_title{
+	text-decoration:none;
+	font-size:20px;
+	color:#000000;
+	font-family:"Comic Sans MS";
+}
+
+#l_title:hover{
+	color:#f63;
+	text-decoration:underline;
+}
+
+.post_area img{
+	
+	padding:10px,10px,0,10px;
+	float:left;
+}
+
+.post_area p{
+	margin:5px;
+	text-align: justify;
+	
+}
+
+#rmlink{
+	
+	background:#000000;
+	color:#FFFFFF;
+	float:right;
+	padding:10px;
+	text-decoration:none;
+}
+#rmlink:hover{
+	text-decoration:underline;
+}
+.side_bar {
+	
+	width:248px;
+	
+	background: #f99;
+	float:right;
+	border: solid 1px #666;
+	
+}
+
+.recent_posts{
+	text-decoration: none;
+	text-align: center;
+}
+
+.recent_posts a{
+	text-decoration: none;
+	color:black;
+}
+
+.recent_posts a:hover{
+	color:red;
+}
+.recent_posts h2{
+	font-size:18px;
+}
+
+
+#s_title{
+	
+	background:#000000;
+	color:#FFFFFF;
+	text-align: center;
+	height: 30px;
+	line-height:30px;
+	border-top:solid 1px #666666;
+}
+.footer{
+	clear:both;
+	width: 1000px;
+	height: 100px;
+	margin-top: 100px;
+	background: black;
+	color: white;
+	
+}
